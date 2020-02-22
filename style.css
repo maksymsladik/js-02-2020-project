@@ -3,6 +3,14 @@ ul, body {
     margin: 0;
 }
 
+li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 header img {
     width: 150px;
     margin-right: 15px;
@@ -31,15 +39,41 @@ header img {
     background: black;
 }
 
+#page, header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
     display: flex;
     align-items: center;
 
-    max-width: 1200px;
     background: green;
-    margin-left: auto;
-    margin-right: auto;
     padding: 15px;
+}
+
+#page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#page aside {
+    width: 20%;
+}
+
+#page main {
+    width: 78%;
+}
+
+#page aside, #page main {
+    box-shadow: 0 0 4px 3px #0000003d;
+    padding: 15px;
+}
+
+.product img {
+    width: 150px;
 }
 
 @media(max-width: 720px) {
