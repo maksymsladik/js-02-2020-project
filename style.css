@@ -43,7 +43,8 @@ header img {
     display: block;
 }
 
-#menu-nav li a:hover {
+#menu-nav li a:hover,
+.active {
     background: black;
 }
 

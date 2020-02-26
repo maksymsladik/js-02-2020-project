@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>My project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <img src="Без2 названия.png" />
+            <nav>
+                <ul id="menu-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a class="active" href="#">Registration</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="page">
+            <aside>
+                <ul id="sidebar-menu">
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Notebooks</a></li>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Tablets</a></li>
+                </ul>
+                </aside>
+            <main>
+                <h1>Registration</h1>
+
+                <form action="/registration" method="POST">
+                   
+                    <input type="text" placeholder="name">
+                    <input type="number" placeholder="age">
+
+                    <input type="password" placeholder="password">
+
+                    <textarea placeholder="Enter message"></textarea>
+
+
+                    <label for="details">Yes/No</label>
+                    <input id="details" type="checkbox">
+                    
+
+                    <label>
+                        Variant-1
+                        <input type="radio" name="mail">
+                    </label>
+                    <label>
+
+                        Variant-2
+                        <input type="radio" name="mail">
+                    </label>
+
+                    <label>
+                        Variant-3
+                        <input type="radio" name="mail">
+                    </label>
+
+                    <!-- <input type="file"> -->
+                    <!-- <input type="color">
+                    <input type="date"> -->
+
+                    <input type="button" value="Send me">
+                    <input type="submit" value="Send me">
+                    <button>Send me</button>
+
+                </form>
+            </main>
+        </div>
+
+        <footer>
+            <span>Dev 2020 Maksym</span>
+        </footer>
+        
+    </body>
+</html>
