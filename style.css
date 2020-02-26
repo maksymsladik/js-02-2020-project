@@ -107,6 +107,21 @@ header {
     background: #ddd;
 }
 
+footer {
+    margin: 15px auto;
+    max-width: 1200px;
+    background: black;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+h1 {
+margin-left: 10px;
+text-transform: uppercase;
+
+}
+
 @media(max-width: 1060px) {
     .product {
         width: 40%;
