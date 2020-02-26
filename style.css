@@ -3,8 +3,16 @@ ul, body {
     margin: 0;
 }
 
+body {
+    margin: 15px;
+}
+
 li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 * {
@@ -88,6 +96,15 @@ header {
     margin: 13px;
     text-align: center;
     padding: 15px;
+}
+
+#sidebar-menu a {
+    display: block;
+    padding: 8px 5px;
+}
+
+#sidebar-menu a:hover {
+    background: #ddd;
 }
 
 @media(max-width: 1060px) {
