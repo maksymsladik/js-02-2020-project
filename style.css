@@ -123,6 +123,44 @@ text-transform: uppercase;
 
 }
 
+/* Form registration styles */
+
+#form-registration {
+    max-width: 400px;
+    box-shadow: 0 0 3px 2px #00000047;
+    padding: 15px;
+    margin: 15px auto;
+}
+
+#form-registration .form-text,
+#form-registration .sex-block,
+#form-registration .subscribe,
+#form-registration textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    display: block;
+}
+
+#form-registration .form-text {
+    height: 30px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#form-registration button {
+    background-color: green;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#form-registration button:hover {
+    background: rgb(148, 113, 97);
+}
+
+
 @media(max-width: 1060px) {
     .product {
         width: 40%;

@@ -30,45 +30,44 @@
                     <li><a href="#">Phones</a></li>
                     <li><a href="#">Tablets</a></li>
                 </ul>
-                </aside>
+            </aside>
             <main>
                 <h1>Registration</h1>
 
-                <form action="/registration" method="POST">
+                <form id="form-registration" action="https://google.com/registration" method="POST" enctype="multipart/form-data">
                    
-                    <input type="text" placeholder="name">
-                    <input type="number" placeholder="age">
-
-                    <input type="password" placeholder="password">
-
-                    <textarea placeholder="Enter message"></textarea>
-
-
-                    <label for="details">Yes/No</label>
-                    <input id="details" type="checkbox">
+                    <input class="form-text" type="text" placeholder="name" name="name">
+                    <input class="form-text" type="number" placeholder="age" name="age">
+                    <input class="form-text" type="password" placeholder="password" name="password">
                     
-
-                    <label>
-                        Variant-1
-                        <input type="radio" name="mail">
+                    <label class="subscribe">
+                        Subscribe mail
+                        <input type="checkbox" name="subscribe">
                     </label>
-                    <label>
+                    
+                    <div class="sex-block">
+                        <label>
+                            Male
+                            <input type="radio" name="sex" value="1">
+                        </label>
+                        
+                        <label>
+                            Female
+                            <input type="radio" name="sex" value="0">
+                        </label>
+                    </div>
 
-                        Variant-2
-                        <input type="radio" name="mail">
-                    </label>
-
-                    <label>
-                        Variant-3
-                        <input type="radio" name="mail">
-                    </label>
+                    <input type="file" name="myfile">
+                    
+                    <textarea placeholder="Enter message" name="enter message"></textarea>
 
                     <!-- <input type="file"> -->
                     <!-- <input type="color">
                     <input type="date"> -->
 
-                    <input type="button" value="Send me">
-                    <input type="submit" value="Send me">
+                    <!-- <input type="button" value="Send me">
+                    <input type="submit" value="Send me"> -->
+
                     <button>Send me</button>
 
                 </form>
